@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header__item {
+    margin-left: 1rem;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex: 1;
+    padding: 2rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section__title {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #444;
+}
+
+.section__text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.colors {
+    display: flex;
+    gap: 1rem;
+}
+
+.colors__box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.colors__box--red {
+    background-color: red;
+}
+
+.colors__box--green {
+    background-color: green;
+}
+
+.colors__box--blue {
+    background-color: blue;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.table__head {
+    background-color: #333;
+    color: #fff;
+}
+
+.table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.table__cell {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.list {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.list--unordered {
+    list-style-type: disc;
+}
+
+.list--ordered {
+    list-style-type: decimal;
+}
+
+.list__item {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
