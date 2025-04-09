@@ -1,0 +1,7 @@
+<!-- src/app/components/vacancy-list/vacancy-list.component.html -->
+<h3>Vacancies</h3>
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    {{ vacancy.name }} - {{ vacancy.salary | currency:'USD' }}
+  </li>
+</ul>
